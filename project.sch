@@ -1,0 +1,323 @@
+EESchema Schematic File Version 2  date Sa 22 Feb 2014 23:20:51 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:micha_custom
+LIBS:project-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "22 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3600 6550
+Connection ~ 3650 6550
+Wire Wire Line
+	3600 6550 3650 6550
+Connection ~ 3350 6550
+Wire Wire Line
+	3150 6550 4500 6550
+Wire Wire Line
+	3700 5600 3700 6100
+Wire Wire Line
+	3700 5600 3850 5600
+Wire Wire Line
+	3700 6100 3850 6100
+Wire Wire Line
+	3850 5850 3150 5850
+Connection ~ 3350 5850
+Wire Wire Line
+	5600 5600 5150 5600
+Connection ~ 5400 5600
+Wire Wire Line
+	5600 6100 5150 6100
+Connection ~ 5400 6100
+Wire Wire Line
+	3700 6050 3600 6050
+Connection ~ 3700 6050
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3600 4450
+Connection ~ 5400 4500
+Wire Wire Line
+	5600 4500 5150 4500
+Connection ~ 5400 4000
+Wire Wire Line
+	5600 4000 5150 4000
+Connection ~ 3350 4250
+Wire Wire Line
+	3850 4250 3150 4250
+Connection ~ 9300 4850
+Wire Wire Line
+	10000 4850 8950 4850
+Wire Wire Line
+	10000 4850 10000 4750
+Wire Wire Line
+	8950 4850 8950 4950
+Wire Wire Line
+	9300 4450 9300 4550
+Wire Wire Line
+	8950 4350 8950 4450
+Wire Wire Line
+	9300 4850 9300 4750
+Wire Wire Line
+	8950 4450 10000 4450
+Wire Wire Line
+	10000 4450 10000 4550
+Connection ~ 9300 4450
+Wire Wire Line
+	3850 4500 3700 4500
+Wire Wire Line
+	3850 4000 3700 4000
+Wire Wire Line
+	3700 4000 3700 4500
+Wire Wire Line
+	3150 4950 4500 4950
+Connection ~ 3350 4950
+Wire Wire Line
+	3600 4950 3650 4950
+Connection ~ 3650 4950
+Connection ~ 3600 4950
+$Comp
+L CONN_2 P7
+U 1 1 530921A6
+P 5500 5250
+F 0 "P7" V 5450 5250 40  0000 C CNN
+F 1 "OUT2" V 5550 5250 40  0000 C CNN
+	1    5500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 530921A5
+P 3250 5500
+F 0 "P3" V 3200 5500 40  0000 C CNN
+F 1 "IN2" V 3300 5500 40  0000 C CNN
+	1    3250 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74LS107 U1
+U 2 1 530921A4
+P 4500 5850
+F 0 "U1" H 4500 5950 60  0000 C CNN
+F 1 "74LS107" H 4500 5750 60  0000 C CNN
+	2    4500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P8
+U 1 1 530921A3
+P 5500 5750
+F 0 "P8" V 5450 5750 40  0000 C CNN
+F 1 "nOUT2" V 5550 5750 40  0000 C CNN
+	1    5500 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 530921A2
+P 3250 6200
+F 0 "P4" V 3200 6200 40  0000 C CNN
+F 1 "nRST2" V 3300 6200 40  0000 C CNN
+	1    3250 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 530921A1
+P 3700 5600
+F 0 "#PWR01" H 3700 5700 30  0001 C CNN
+F 1 "VCC" H 3700 5700 30  0000 C CNN
+	1    3700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 530921A0
+P 3600 6300
+F 0 "R2" V 3680 6300 50  0000 C CNN
+F 1 "10k" V 3600 6300 50  0000 C CNN
+	1    3600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5309212A
+P 3600 4700
+F 0 "R1" V 3680 4700 50  0000 C CNN
+F 1 "10k" V 3600 4700 50  0000 C CNN
+	1    3600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5309211F
+P 3700 4000
+F 0 "#PWR02" H 3700 4100 30  0001 C CNN
+F 1 "VCC" H 3700 4100 30  0000 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 5309208E
+P 3250 4600
+F 0 "P2" V 3200 4600 40  0000 C CNN
+F 1 "nRST1" V 3300 4600 40  0000 C CNN
+	1    3250 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P6
+U 1 1 53092021
+P 5500 4150
+F 0 "P6" V 5450 4150 40  0000 C CNN
+F 1 "nOUT1" V 5550 4150 40  0000 C CNN
+	1    5500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74LS107 U1
+U 1 1 53091E94
+P 4500 4250
+F 0 "U1" H 4500 4350 60  0000 C CNN
+F 1 "74LS107" H 4500 4150 60  0000 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P11
+U 1 1 5308FB36
+P 7800 4900
+F 0 "P11" H 7880 4900 40  0000 L CNN
+F 1 "CONN_1" H 7800 4955 30  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P12
+U 1 1 5308FB35
+P 7800 5100
+F 0 "P12" H 7880 5100 40  0000 L CNN
+F 1 "CONN_1" H 7800 5155 30  0001 C CNN
+	1    7800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P10
+U 1 1 5308FB2D
+P 7350 5100
+F 0 "P10" H 7430 5100 40  0000 L CNN
+F 1 "CONN_1" H 7350 5155 30  0001 C CNN
+	1    7350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 5308FB27
+P 7350 4900
+F 0 "P9" H 7430 4900 40  0000 L CNN
+F 1 "CONN_1" H 7350 4955 30  0001 C CNN
+	1    7350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P14
+U 1 1 5308EA78
+P 10350 4650
+F 0 "P14" V 10300 4650 40  0000 C CNN
+F 1 "PWR" V 10400 4650 40  0000 C CNN
+	1    10350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5308E896
+P 8950 4650
+F 0 "C1" H 9000 4750 50  0000 L CNN
+F 1 "10u" H 9000 4550 50  0000 L CNN
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P13
+U 1 1 5308E878
+P 9650 4650
+F 0 "P13" V 9600 4650 40  0000 C CNN
+F 1 "PWR" V 9700 4650 40  0000 C CNN
+	1    9650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5308E866
+P 8950 4950
+F 0 "#PWR03" H 8950 4950 30  0001 C CNN
+F 1 "GND" H 8950 4880 30  0001 C CNN
+	1    8950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 5308E85C
+P 8950 4350
+F 0 "#PWR04" H 8950 4450 30  0001 C CNN
+F 1 "VCC" H 8950 4450 30  0000 C CNN
+	1    8950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 5308E67C
+P 3250 3900
+F 0 "P1" V 3200 3900 40  0000 C CNN
+F 1 "IN1" V 3300 3900 40  0000 C CNN
+	1    3250 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P5
+U 1 1 5308E341
+P 5500 3650
+F 0 "P5" V 5450 3650 40  0000 C CNN
+F 1 "OUT1" V 5550 3650 40  0000 C CNN
+	1    5500 3650
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
