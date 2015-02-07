@@ -1,0 +1,62 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Sa 07 Feb 2015 14:06:55 CET
+#Cmp ( order = Reference )
+| C1         10u         
+| C2         1u          
+| C3         10u         
+| C4         100n        
+| C5         10u         
+| C6         100n        
+| C7         100n        
+| C8         100n        
+| C9         100n        
+| P1         CLK_IN      
+| P2         RandParOut  
+| P3         CLK/8_OUT   
+| P9         CONN_1      
+| P10        CONN_1      
+| P11        CONN_1      
+| P12        CONN_1      
+| P13        PWR         
+| P14        PWR         
+| Q1         2n3904      
+| Q2         2n3904      
+| R1         47k         
+| R2         4k7         
+| R3         1M          
+| U1         ICL7660     
+| U2         4049        
+| U3         4024        
+| U4         74LS595     
+#End Cmp
+
+#Cmp ( order = Value )
+| 100n         C4        
+| 100n         C6        
+| 100n         C7        
+| 100n         C8        
+| 100n         C9        
+| 1u           C2        
+| 10u          C1        
+| 10u          C3        
+| 10u          C5        
+| CLK_IN       P1        
+| RandParOut   P2        
+| CLK/8_OUT    P3        
+| CONN_1       P9        
+| CONN_1       P10       
+| CONN_1       P11       
+| CONN_1       P12       
+| PWR          P13       
+| PWR          P14       
+| 2n3904       Q1        
+| 2n3904       Q2        
+| 4k7          R2        
+| 47k          R1        
+| 1M           R3        
+| 4024         U3        
+| 4049         U2        
+| ICL7660      U1        
+| 74LS595      U4        
+#End Cmp
+
+#End List
